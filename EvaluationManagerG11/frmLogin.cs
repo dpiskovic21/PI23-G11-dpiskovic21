@@ -21,9 +21,29 @@ namespace EvaluationManagerG11
         {
 
         }
-
+        string username = "nastavnik";
+        string password = "test";
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            if (txtUsername.Text == "")
+            {
+                MessageBox.Show(
+                    "Korisničko ime nije unešeno!",
+                    "Problem",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                    );
+            } 
+            else if (txtPassword.Text == ""){
+                MessageBox.Show(
+                    "Lozinka nije unešena!",
+                    "Problem",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                    );
+            }
+
+            
         }
     }
 }
