@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EvaluationManagerG11
+namespace Evaluation_Manager
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace EvaluationManagerG11
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+            Application.Run(new FrmLogin());
         }
     }
 }
