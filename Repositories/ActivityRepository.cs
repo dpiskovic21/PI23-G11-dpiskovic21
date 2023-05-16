@@ -8,7 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Evaluation_Manager.Repositories {
+
     public class ActivityRepository {
+
         public static Activity GetActivity(int id) {
 
             Activity activity = null;
